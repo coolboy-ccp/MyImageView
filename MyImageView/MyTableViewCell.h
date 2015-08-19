@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyTableViewCell.h
 //  MyImageView
 //
 //  Created by liqunfei on 15/8/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
-
-
+@interface MyTableViewCell : UITableViewCell
+@property (strong,nonatomic) UIImageView *headImage;
 @end
-

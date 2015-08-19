@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008838441B8416A30001F9CA /* placr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 008838431B8416A30001F9CA /* placr.jpg */; };
 		00A729861B82D8A70019EBB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A729851B82D8A70019EBB3 /* main.m */; };
 		00A729891B82D8A70019EBB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A729881B82D8A70019EBB3 /* AppDelegate.m */; };
 		00A7298C1B82D8A70019EBB3 /* MyImageView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A7298A1B82D8A70019EBB3 /* MyImageView.xcdatamodeld */; };
@@ -15,6 +16,11 @@
 		00A729941B82D8A70019EBB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A729931B82D8A70019EBB3 /* Images.xcassets */; };
 		00A729971B82D8A70019EBB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A729951B82D8A70019EBB3 /* LaunchScreen.xib */; };
 		00A729A31B82D8A70019EBB3 /* MyImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A729A21B82D8A70019EBB3 /* MyImageViewTests.m */; };
+		00A729B21B8306790019EBB3 /* MyImageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A729B11B8306790019EBB3 /* MyImageAnimation.m */; };
+		00A729B41B8306B20019EBB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A729B31B8306B20019EBB3 /* CoreGraphics.framework */; };
+		00A729B71B832B5D0019EBB3 /* UIImageView+MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A729B61B832B5D0019EBB3 /* UIImageView+MyImageView.m */; };
+		00A729BA1B83353E0019EBB3 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A729B91B83353E0019EBB3 /* MyTableViewCell.m */; };
+		00A729BC1B8336850019EBB3 /* TestData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00A729BB1B8336850019EBB3 /* TestData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008838431B8416A30001F9CA /* placr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placr.jpg; sourceTree = "<group>"; };
 		00A729801B82D8A70019EBB3 /* MyImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A729841B82D8A70019EBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A729851B82D8A70019EBB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +49,14 @@
 		00A7299C1B82D8A70019EBB3 /* MyImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A729A11B82D8A70019EBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A729A21B82D8A70019EBB3 /* MyImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyImageViewTests.m; sourceTree = "<group>"; };
+		00A729B01B8306790019EBB3 /* MyImageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageAnimation.h; sourceTree = "<group>"; };
+		00A729B11B8306790019EBB3 /* MyImageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageAnimation.m; sourceTree = "<group>"; };
+		00A729B31B8306B20019EBB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00A729B51B832B5D0019EBB3 /* UIImageView+MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MyImageView.h"; sourceTree = "<group>"; };
+		00A729B61B832B5D0019EBB3 /* UIImageView+MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MyImageView.m"; sourceTree = "<group>"; };
+		00A729B81B83353E0019EBB3 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		00A729B91B83353E0019EBB3 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		00A729BB1B8336850019EBB3 /* TestData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A729B41B8306B20019EBB3 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,8 @@
 		00A729771B82D8A70019EBB3 = {
 			isa = PBXGroup;
 			children = (
+				00A729B31B8306B20019EBB3 /* CoreGraphics.framework */,
+				00A729AC1B83060A0019EBB3 /* MyWebImage */,
 				00A729821B82D8A70019EBB3 /* MyImageView */,
 				00A7299F1B82D8A70019EBB3 /* MyImageViewTests */,
 				00A729811B82D8A70019EBB3 /* Products */,
@@ -87,6 +105,8 @@
 				00A729881B82D8A70019EBB3 /* AppDelegate.m */,
 				00A7298D1B82D8A70019EBB3 /* ViewController.h */,
 				00A7298E1B82D8A70019EBB3 /* ViewController.m */,
+				00A729B81B83353E0019EBB3 /* MyTableViewCell.h */,
+				00A729B91B83353E0019EBB3 /* MyTableViewCell.m */,
 				00A729901B82D8A70019EBB3 /* Main.storyboard */,
 				00A729931B82D8A70019EBB3 /* Images.xcassets */,
 				00A729951B82D8A70019EBB3 /* LaunchScreen.xib */,
@@ -100,7 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				00A729841B82D8A70019EBB3 /* Info.plist */,
+				008838431B8416A30001F9CA /* placr.jpg */,
 				00A729851B82D8A70019EBB3 /* main.m */,
+				00A729BB1B8336850019EBB3 /* TestData.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -120,6 +142,17 @@
 				00A729A11B82D8A70019EBB3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A729AC1B83060A0019EBB3 /* MyWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				00A729B01B8306790019EBB3 /* MyImageAnimation.h */,
+				00A729B11B8306790019EBB3 /* MyImageAnimation.m */,
+				00A729B51B832B5D0019EBB3 /* UIImageView+MyImageView.h */,
+				00A729B61B832B5D0019EBB3 /* UIImageView+MyImageView.m */,
+			);
+			path = MyWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008838441B8416A30001F9CA /* placr.jpg in Resources */,
 				00A729921B82D8A70019EBB3 /* Main.storyboard in Resources */,
 				00A729971B82D8A70019EBB3 /* LaunchScreen.xib in Resources */,
+				00A729BC1B8336850019EBB3 /* TestData.plist in Resources */,
 				00A729941B82D8A70019EBB3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A7298C1B82D8A70019EBB3 /* MyImageView.xcdatamodeld in Sources */,
+				00A729BA1B83353E0019EBB3 /* MyTableViewCell.m in Sources */,
 				00A729891B82D8A70019EBB3 /* AppDelegate.m in Sources */,
 				00A7298F1B82D8A70019EBB3 /* ViewController.m in Sources */,
+				00A729B21B8306790019EBB3 /* MyImageAnimation.m in Sources */,
+				00A729B71B832B5D0019EBB3 /* UIImageView+MyImageView.m in Sources */,
 				00A729861B82D8A70019EBB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +458,7 @@
 				00A729A81B82D8A70019EBB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A729A91B82D8A70019EBB3 /* Build configuration list for PBXNativeTarget "MyImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +467,7 @@
 				00A729AB1B82D8A70019EBB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
